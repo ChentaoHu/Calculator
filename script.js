@@ -58,7 +58,6 @@ class Calculator {
     this.currentOperandTextElement.innerText = this.currentOperand
     this.previousOperandTextElement.innerText =this.previousOperand
   }
-
 }
 
 
