@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boreder-box;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  align-items: flex-end;
+  text-align: center;
+}
+
+header{
+  font-size: 50px;
+  text-align: center;
+  height: 250px;
+  padding-top: 100px;
+}
+header :hover{
+  background-color: gold;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, pink, purple);
+}
+
+form{
+
+  font-size: 30px;
+}
+.filter{
+  margin-bottom: 20px;
+  font-size: 25px;
+  cursor:auto; 
+}
+
+.clear-button{
+  margin-bottom: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.todo-list{
+  font-size: 15px;
+}
+
+.todo-button{
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+select{
+  font-size: 15px;
+}
+
+.todo{
+  font-size: 25px;
+  padding: 15px;
+}
+
+.completed{
+  text-decoration:line-through;
+  opacity: 0.5;
+}
